@@ -1,0 +1,12 @@
+{
+  "displayCluster": true,
+  "showFeatureCount": true,
+  "featureCountLabel": "TOTAL",
+  "summaryLayer": {
+    "fields": [],
+    "id": "Cámaras_de_Tráfico_1283",
+    "name": "Cámaras de Tráfico",
+    "filterField": "Ubicación",
+    "url": "Cámaras_de_Tráfico_1283"
+  }
+}

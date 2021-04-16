@@ -1,0 +1,9 @@
+{
+  "name": "WAB Trafico MAD 2D",
+  "description": "Web app builder de las camaras de tráfico de madrid",
+  "createdTime": 1618587603238,
+  "lastUpdated": 1618592433135,
+  "creator": "ana.solis",
+  "icon": "images/icon.png",
+  "thumbnail": "images/thumbnail.png"
+}

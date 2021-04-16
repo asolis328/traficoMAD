@@ -1,0 +1,372 @@
+{
+  "mainPanelIcon": "",
+  "layerInfos": [
+    {
+      "layer": "Cámaras_de_Tráfico_1283",
+      "label": "Cámaras de Tráfico",
+      "refresh": false,
+      "url": "https://services3.arcgis.com/lnFkorfBb3ma2riJ/arcgis/rest/services/Cámaras_de_Tráfico/FeatureServer/0",
+      "id": "Cámaras_de_Tráfico_1283",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "https://static.arcgis.com/images/Symbols/Firefly/FireflyA7.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 19.5,
+          "height": 19.5
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "https://static.arcgis.com/images/Symbols/Firefly/FireflyA7.png",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAAsRAAALEQF/ZF+RAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABZ0RVh0Q3JlYXRpb24gVGltZQAwOS8yMS8xN85GMlQAAAfjSURBVGhD7dpZrF1lFQfwK1gGlRlFFJRJJo2oQBQJBCdCUIaEIGEKBDEYCQYjSgJxetBIokETpoQHCUOaQgtlSigNDyT0wQea4GsvrYli4pM+wFO9d7N+x/2/fnf3nN7TByg94ST/svPttf5r/b+1vrX3OZe5SZ+FhYW5xcXFua7rRv+Fx7d0H+ixV2HvHh/ssarHPlMi9vEPH+5RnMRNDnLapU9EBD2xABEwTHzfwn499i98aAWwiT3fobCxgmBqMa2IEPWkrYA2+ST+4cJHCgcUDlwBbNjyaYW1oiYKWlHMGBGTBCT5NvGDC4cUDi0c1uPwAbLOhi2fCGtFTRS0opgVRIwT0CYvuY8WPlY4ovDxwpGFTwxgzT02bPnwxXFQASfuoaDpxUQIw96BY6qQFkoFCLCrdllCkpPoUYVPFT5dOKZw7ADW3GPDlg9fHLhw4k7riSl2qrNMzA5CphCRKtg1uxcBdjjJS/T4wmcKJxZOKpw8gDX32LDlE1G4IigVSnWmE9MImSTCDiG2Y9rBLn6yYHePK0hMoqcWPlf4fOELhS8OYM09Nmz58MWBCyduMcQSU+yxYpYJGVSDQc5EK0K59bId0w5HF+xmBEjstMKXCmcWvlw4q/DVAay5x4YtH74RhBO3GGKJmVZrxeTM/L8q/rFQUI32YHNU2ohwQAWwc9pCm0jCLp9R+Erh7MK5ha8VvlH45gDW3GPDlg9fHLhw4hZDLDEjJm3WDoBRi42EDKqhbJlOORMRkVY6oXBKQYucXpDMOQUJfqtwQeHbhYsKlwxgzT02bPnwxYELJ24x0moRkzOTaZYWG1VlXDWUz0w3CvWpErci9LYd1B52VTLnFyQo2csKVxSuLFw9gDX32LDlwxcHLpy4xWjFyEEucpJb22KjqoyrRs6FyeHQmSZDEfrcTmqXCwuXFi4vXFW4rvC9wvcLNxV+0MO1NffYsOXDFwcunLiHYuQgFznlvCyrCiHDarQtZYI4fPpWySNCj2uN7xTsrqSuL0j0h4UfFX5c+Enhth6urbnHhi0fvjhw4cQdMWKKLQe5tC22rCqtkGE10lImiUOof5Xergmo3+3oNQW7LLlbCz8r3FH4eeFXhV/3cG3NPTZs+fDFgQsnbjHEElNsOaTFhlVZEpK2ytmg2ENJOT2sjMXPFhxGfawF7J7A1xbs7C0Fu35nQdK/LdxV+H3hDz1cW3OPDVs+fHHgwolbDLHEFFsOcpGT3OSYszJqL0LSVqbBuGqY8cpssjiU+lkr2EUJaJXbC78o/KYg4T8V7incX3igh2tr7rFhy4cvDlw4cYshlphiy2FcVeQ8aq8ISVtlUulHO+Cwme9mvXKbMA6nvr6xYDclom1+V7i7cF/hwcKfCw8XHunh2pp7bNjy4YsDF07cYoglpthykIuc5JYJttRehGRatW3lYeQFT396+qYaxuV3Cw7pzYWfFn5ZkNAfC3Zeso8V1hTWFtb1cG3NPTZs+fDFgQsnbjHESlXkIBc5ya1tL7mvipBMK09QpfMS5/3HCPQqoV8dQrPf80AbmED6XM/bXYk9VFhdePKJ+e65dfPdhsLGHhusudfbsOXDFwcunLjFEEtMseUgFznJTY552o/OSYS058OT1LhLW5keRqKnsf71DDBtTB6HVr9rFbu8upJdX0m/+NTr3StPb+1efXZb91dwbc09Nmx7H744cOHELYZYYooth7SX3OTYnpORkPagt+fD67bxZ6afV0hb3VBwOI1RO+nw6vtHC+skun5r95fn/9Zteenv3b9efqP7N7i25h4btr0PXxy4cOIWI+0lthzkIqf2nCwd+AjJQffAyZO8PR9fL5jxXjHSVp4Jxum9BTu7RuvUrm+qhOc3/bP7zz/e7P771vZuEVxbc49N32bODF8cuHCmvcQSU+z2nORJL9cc+IlCHKqMXa/e3lovLpgoXjU8pU0bLWGsmkhr1853L1QLbbb7Et++0HWL3f/g2pp72owtn94XBy6cuMUQS0yx5ZAxLLddFuLLkO8RHlA56N6bPMj0tAedA2u8aquNz2zrXtNKqkBAPq6tuceGLZ/eFwcunLjFyIEXWw5yeV/IO9Vam9+t1tpjD/tMjN+ZeSDO1CvKTLw0zsxr/Mx8sZrmq64d2V1fdcWe6quuHx9yTpRqXFX0p/Fneii3Q2jGC2wXd+ePD3Jf9iuKEmV6pSr60bh7r/wclGpkWo3aqjASMjM/0M3GT6Yz8yP2zPxZwT+DqrQtlvMSMUosgMNnkhiLZrwkPH29SmgPfe7V2/eIFtbcY8OWD18cuHDiFkOsiMi5aFtqqRojIYO/WlE4SYzS6lOHzgRJq3n/iSC9LTEtYpd9GWphzT02bCMAR1oJtxhiiTlJxPI/vfkMqhIxerAVkzNjchiDdsw08RLnYWU3tYXEvG5rE4m2sOYeG7Z8+OLAhRO3GDkTrYici1FL7SDEZwoxGQBpNTsWQXZRO0SU3fWCJ9EW1txL8nz4RgDOtJJYYk4vwidCxohJm2WapTpGoaB2Ty9rBwk5oJKzwxJtYc09Nmz58E0FcKYKmU5iL7VTYSRiohCfFcSkOkNBdq8VZVclB3a5RdbZsOXDF4fnw1CAmLsmIp8xYnYmKC0nAYm0wnaGtE6bPK6JAmBqEfm0YhpBCIeChqJaYTtDEh8mv1MBMLWIfCKm2yP+x7O5ubcB1/f5HfYGgh8AAAAASUVORK5CYII=",
+          "contentType": "image/png",
+          "width": 21,
+          "height": 21
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {
+            "rotationInfo": null,
+            "colorInfo": null,
+            "opacityInfo": null
+          },
+          "symbol": {
+            "url": "${appPath}/configs/InfoSummary/url1618592433130.png",
+            "width": 28,
+            "height": 28,
+            "imageData": "https://static.arcgis.com/images/Symbols/Firefly/FireflyA7.png",
+            "contentType": "image/png",
+            "size": 16,
+            "_inherited": {
+              "p": 2
+            }
+          },
+          "isMaxInclusive": true,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-13\" y=\"-13\" width=\"26\" height=\"26\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></image></svg>",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></image></svg>",
+        "userDefinedSymbol": false,
+        "layerId": "Cámaras_de_Tráfico_1283",
+        "featureDisplayOptions": {
+          "groupEnabled": false,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "FID"
+            },
+            {
+              "name": "Link"
+            },
+            {
+              "name": "Ubicación"
+            }
+          ],
+          "groupField": {
+            "name": "FID",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": []
+          }
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "parentLayerID": "Cámaras_de_Tráfico_1283",
+      "renderer": {
+        "_cache": {
+          "rotationInfo": null,
+          "colorInfo": null,
+          "opacityInfo": null
+        },
+        "symbol": {
+          "url": "${appPath}/configs/InfoSummary/url1618592433130.png",
+          "width": 28,
+          "height": 28,
+          "imageData": "https://static.arcgis.com/images/Symbols/Firefly/FireflyA7.png",
+          "contentType": "image/png",
+          "size": 16,
+          "_inherited": {
+            "p": 2
+          }
+        },
+        "isMaxInclusive": true,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID",
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "Link",
+          "type": "esriFieldTypeString",
+          "alias": "Link",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "Ubicación",
+          "type": "esriFieldTypeString",
+          "alias": "Ubicación",
+          "length": 254,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "POINT_X",
+          "type": "esriFieldTypeDouble",
+          "alias": "POINT_X",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "POINT_Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "POINT_Y",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        },
+        {
+          "name": "Numero",
+          "type": "esriFieldTypeInteger",
+          "alias": "Numero",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null,
+          "isViewOverride": false
+        }
+      ],
+      "oidFieldName": "FID",
+      "subLayerId": 0,
+      "infoTemplate": {
+        "info": {
+          "title": "Cámaras de Tráfico",
+          "fieldInfos": [
+            {
+              "fieldName": "FID",
+              "label": "FID",
+              "isEditable": false,
+              "tooltip": "",
+              "visible": true,
+              "format": {
+                "places": 0,
+                "digitSeparator": true
+              },
+              "stringFieldOption": "textbox",
+              "isEditableOnLayer": false
+            },
+            {
+              "fieldName": "Link",
+              "label": "Link",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox",
+              "isEditableOnLayer": true
+            },
+            {
+              "fieldName": "Ubicación",
+              "label": "Ubicación",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox",
+              "isEditableOnLayer": true
+            },
+            {
+              "fieldName": "POINT_X",
+              "label": "POINT_X",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "format": {
+                "places": 2,
+                "digitSeparator": true
+              },
+              "stringFieldOption": "textbox",
+              "isEditableOnLayer": true
+            },
+            {
+              "fieldName": "POINT_Y",
+              "label": "POINT_Y",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "format": {
+                "places": 2,
+                "digitSeparator": true
+              },
+              "stringFieldOption": "textbox",
+              "isEditableOnLayer": true
+            },
+            {
+              "fieldName": "Numero",
+              "label": "Numero",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "format": {
+                "places": 0,
+                "digitSeparator": true
+              },
+              "stringFieldOption": "textbox",
+              "isEditableOnLayer": true
+            }
+          ],
+          "description": "<div style='text-align: center;'><b>{Ubicación}<br /></b></div>",
+          "showAttachments": true,
+          "mediaInfos": [
+            {
+              "title": null,
+              "type": "image",
+              "caption": "Cámara número: {Numero}",
+              "value": {
+                "sourceURL": "{Link}",
+                "linkURL": "{Link}"
+              }
+            }
+          ]
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "fid": "FID",
+          "link": "Link",
+          "ubicación": "Ubicación",
+          "point_x": "POINT_X",
+          "point_y": "POINT_Y",
+          "numero": "Numero"
+        },
+        "_fieldsMap": {
+          "fid": {
+            "fieldName": "FID",
+            "label": "FID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          "link": {
+            "fieldName": "Link",
+            "label": "Link",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          "ubicación": {
+            "fieldName": "Ubicación",
+            "label": "Ubicación",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          "point_x": {
+            "fieldName": "POINT_X",
+            "label": "POINT_X",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          "point_y": {
+            "fieldName": "POINT_Y",
+            "label": "POINT_Y",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          "numero": {
+            "fieldName": "Numero",
+            "label": "Numero",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false,
+        "contentHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"type\":\"simple\",\"symbol\":{\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriPMS\",\"url\":\"https://static.arcgis.com/images/Symbols/Firefly/FireflyA7.png\",\"imageData\":\"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\",\"contentType\":\"image/png\",\"width\":22.5,\"height\":22.5}}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></image></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-14\" y=\"-14\" width=\"28\" height=\"28\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></image></svg></div>"
+    }
+  ],
+  "mapID": "d2e3557be19b492eb4adf8bd1ddc7bde",
+  "mainPanelText": "",
+  "refreshInterval": "",
+  "refreshEnabled": false,
+  "countEnabled": true,
+  "displayPanelIcon": false,
+  "hidePanel": false,
+  "continuousRefreshEnabled": false,
+  "expandList": false,
+  "showAllFeatures": false,
+  "upgradeFields": false,
+  "displayClusterLayer": true
+}
